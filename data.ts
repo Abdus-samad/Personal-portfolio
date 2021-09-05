@@ -172,12 +172,12 @@ export const projects: IProject[] = [
 	},
 	{
 		id: 10,
-		name: 'Contact Manager',
+		name: 'Github Finder',
 		description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-		image_path: '/Images/Manager.png',
+		image_path: '/Images/GithubFinder.png',
 		deployed_url: 'https://ajao.netlify.app',
 		category: ['react'],
-		github_url: '',
-		key_techs: ['React', 'BootStrap'],
+		github_url: 'https://github.com/Abdus-samad/GithubFinder',
+		key_techs: ['React', 'BootStrap', 'Context Api'],
 	},
 ];

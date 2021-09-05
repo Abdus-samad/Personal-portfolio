@@ -6,9 +6,9 @@ import Image from 'next/image';
 import {motion} from 'framer-motion';
 import {fadeInUp, stagger} from '../../animation';
 const ProjectCard: FunctionComponent<{
-	project: IProject
-	showDetail: null | number
-	setShowDetail:(id:null| number)=>void
+	project: IProject;
+	showDetail: null | number;
+	setShowDetail: (id: null | number) => void;
 }> = ({
 	project: {
 		category,
@@ -18,13 +18,11 @@ const ProjectCard: FunctionComponent<{
 		image_path,
 		key_techs,
 		name,
-		id
+		id,
 	},
 	setShowDetail,
-	showDetail
+	showDetail,
 }) => {
-	
-
 	return (
 		<div>
 			<Image
@@ -45,7 +43,9 @@ const ProjectCard: FunctionComponent<{
 						variants={stagger}
 						initial='initial'
 						animate='animate'>
-						<motion.div variants={fadeInUp} className='border-4 border-gray-400'>
+						<motion.div
+							variants={fadeInUp}
+							className='border-4 border-gray-400'>
 							<Image
 								src={image_path}
 								alt={name}
@@ -53,7 +53,6 @@ const ProjectCard: FunctionComponent<{
 								height='200'
 								layout='responsive'
 								quality='100'
-		
 							/>
 						</motion.div>
 						<motion.div
