@@ -2,13 +2,12 @@ import {services} from '../data';
 import ServiceCard from '../components/Home/ServiceCard';
 import {motion} from 'framer-motion';
 import {fadeInUp, routeAnimation, stagger} from '../animation';
-import Head from 'next/head'
-
+import Head from 'next/head';
 
 const index = () => {
 	return (
 		<>
-		<Head>
+			<Head>
 				<title>Personal Portfolio</title>
 				<meta
 					name='description'
@@ -23,7 +22,9 @@ const index = () => {
 				animate='animate'
 				exit='exit'>
 				<h5 className='my-3 font-medium'>
-				I am a frontend developer from nigeria and i am 19 years . I have 1 and half year of experience i web development
+					Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+					Aliquid tenetur quo incidunt necessitatibus! Quia assumenda
+					dolorum rem minus nihil quaerat.
 				</h5>
 				<div
 					className='flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100'
