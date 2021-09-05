@@ -1,6 +1,6 @@
 import '../styles/globals.css';
-import Header from '../Components/Home/Header';
-import Siderbar from '../Components/SideBar/Sidebar';
+import Header from '../components/Home/Header';
+import Siderbar from '../components/SideBar/Sidebar';
 import {ThemeProvider} from 'next-themes';
 import {AnimatePresence} from 'framer-motion';
 
@@ -14,7 +14,7 @@ function MyApp({Component, pageProps, router}) {
 				<div className='flex flex-col col-span-12 overflow-hidden bg-white shadow-custom-light dark:shadow-cus tom-dark dark:bg-dark-500 lg:col-span-8 rounded-2xl'>
 					<Header />
 					<AnimatePresence exitBeforeEnter>
-						<Component {...pageProps} key={router.route}/>
+						<Component {...pageProps} key={router.route} />
 					</AnimatePresence>
 				</div>
 			</div>

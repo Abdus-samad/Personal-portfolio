@@ -1,5 +1,5 @@
 import {motion} from 'framer-motion';
-import Bar from '../Components/Home/Bar';
+import Bar from '../components/Home/Bar';
 import {languages, tools} from '../data';
 import {fadeInUp, routeAnimation} from '../animation';
 

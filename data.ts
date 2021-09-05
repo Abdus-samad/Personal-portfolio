@@ -170,4 +170,14 @@ export const projects: IProject[] = [
 		github_url: 'https://github.com/Abdus-samad/contactmanager',
 		key_techs: ['React', 'BootStrap'],
 	},
+	{
+		id: 10,
+		name: 'Contact Manager',
+		description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+		image_path: '/Images/Manager.png',
+		deployed_url: 'https://ajao.netlify.app',
+		category: ['react'],
+		github_url: '',
+		key_techs: ['React', 'BootStrap'],
+	},
 ];
