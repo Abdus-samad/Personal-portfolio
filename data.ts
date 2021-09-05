@@ -98,7 +98,7 @@ export const projects: IProject[] = [
 		deployed_url: 'https://ecommerce-g0clswj68-abdus-samad.vercel.app',
 		category: ['nextJs', 'firebase'],
 		github_url: 'https://github.com/Abdus-samad/E-Shop',
-		key_techs: ['nextJs', 'Tailwind-CSS', 'Context Api'],
+		key_techs: ['nextJs', 'Tailwind', 'Context Api'],
 	},
 	{
 		id: 3,
@@ -148,7 +148,7 @@ export const projects: IProject[] = [
 		deployed_url: 'https://blog-islqosoph-abdus-samad.vercel.app',
 		category: ['nextJs'],
 		github_url: 'https://github.com/Abdus-samad/whatapp',
-		key_techs: ['nextJs', 'Tailwind-Css'],
+		key_techs: ['nextJs', 'Tailwind'],
 	},
 	{
 		id: 8,
@@ -158,7 +158,7 @@ export const projects: IProject[] = [
 		deployed_url: 'https://google2-0-fawn.vercel.app',
 		category: ['nextJs'],
 		github_url: 'https://github.com/Abdus-samad/Google2.0',
-		key_techs: ['nextJs', 'Tailwind-Css'],
+		key_techs: ['nextJs', 'Tailwind'],
 	},
 	{
 		id: 9,
@@ -179,5 +179,15 @@ export const projects: IProject[] = [
 		category: ['react'],
 		github_url: 'https://github.com/Abdus-samad/GithubFinder',
 		key_techs: ['React', 'BootStrap', 'Context Api'],
+	},
+	{
+		id: 11,
+		name: 'Personal Porfolio',
+		description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+		image_path: '/Images/pro.png',
+		deployed_url: 'https://personal-portfolio-opal-alpha.vercel.app',
+		category: ['nextJs'],
+		github_url: 'https://github.com/Abdus-samad/Personal-portfolio',
+		key_techs: ['NextJs', 'Typescript', 'Tailwind'],
 	},
 ];
