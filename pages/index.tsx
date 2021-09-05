@@ -23,13 +23,7 @@ const index = () => {
 				animate='animate'
 				exit='exit'>
 				<h5 className='my-3 font-medium'>
-<<<<<<< HEAD
-					I am a frontend developer from nigeria and i am 19 years
-					old. I have 1 and half year of experience i web development
-=======
-					I am a frontend developer from nigeria old and i am 19 years
-				. I have 1 and half year of experience i web development
->>>>>>> d7d908655ccc0495f781a7e273adea6ced53ba5f
+				I am a frontend developer from nigeria and i am 19 years . I have 1 and half year of experience i web development
 				</h5>
 				<div
 					className='flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100'
