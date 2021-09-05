@@ -24,7 +24,7 @@ const index = () => {
 				exit='exit'>
 				<h5 className='my-3 font-medium'>
 					I am a frontend developer from nigeria old and i am 19 years
-					old. I have 1 and half year of experience i web development
+				. I have 1 and half year of experience i web development
 				</h5>
 				<div
 					className='flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100'
