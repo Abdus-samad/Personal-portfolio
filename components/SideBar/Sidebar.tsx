@@ -1,11 +1,11 @@
-import {AiFillGithub, AiOutlineTwitter, AiFillLinkedin} from 'react-icons/ai';
-import {GoLocation} from 'react-icons/go';
-import {GiTie} from 'react-icons/gi';
-import {useTheme} from 'next-themes';
+import { AiFillGithub, AiOutlineTwitter, AiFillLinkedin } from 'react-icons/ai';
+import { GoLocation } from 'react-icons/go';
+import { GiTie } from 'react-icons/gi';
+import { useTheme } from 'next-themes';
 import Image from 'next/image';
 
 const Siderbar = () => {
-	const {theme, setTheme} = useTheme();
+	const { theme, setTheme } = useTheme();
 
 	const changeTheme = () => {
 		setTheme(theme === 'light' ? 'dark' : 'light');
@@ -14,7 +14,7 @@ const Siderbar = () => {
 	return (
 		<>
 			<Image
-				src='/Images/Joker.jpg'
+				src='/Images/Abdus_samad.jpg'
 				alt=''
 				className='w-32 h-32 mx-auto rounded-full'
 				width='128px'
@@ -25,11 +25,11 @@ const Siderbar = () => {
 				<span className='text-green'>Abdus-Samad</span> Ajao
 			</h3>
 			<p className='px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200'>
-				Web Developer
+				Frontend Developer
 			</p>
 			<a
-				href='/Images/Amazon.png'
-				download='AmazonClone.png '
+				href='/Abdus_Samad_Ajao_Job_Resume.pdf'
+				download='Abdus_Samad_Ajao_Job_Resume.pdf'
 				className='flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200'>
 				<GiTie className='w-6 h-6' />
 				Download Resume
@@ -49,7 +49,7 @@ const Siderbar = () => {
 
 			<div
 				className='py-4 my-5 bg-gray-200 dark:bg-dark-200'
-				style={{marginLeft: '-1em', marginRight: '-1rem'}}>
+				style={{ marginLeft: '-1em', marginRight: '-1rem' }}>
 				<div className='flex items-center justify-center space-x-2'>
 					<GoLocation />
 					<span>Abuja,Nigeria</span>

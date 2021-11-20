@@ -69,6 +69,11 @@ export const languages: ISkill[] = [
 		level: '50',
 		Icon: BsCircleFill,
 	},
+	{
+		name: 'TypeScript',
+		level: '50',
+		Icon: BsCircleFill,
+	}
 ];
 
 export const tools: ISkill[] = [
