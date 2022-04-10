@@ -1,13 +1,12 @@
-import {FunctionComponent} from 'react';
-import {Category} from '../../type';
+import { FunctionComponent } from 'react';
+import { Category } from '../../type';
 
 export const NavItem: FunctionComponent<{
 	value: Category | 'all';
 	handlerFilterCategory: Function;
 	active: string;
-}> = ({value, handlerFilterCategory, active}) => {
-    
-	let className = 'uppercase list-none cursor-pointer hover:text-green'
+}> = ({ value, handlerFilterCategory, active }) => {
+	let className = 'uppercase list-none cursor-pointer hover:text-green';
 	if (active === value) className += ' text-green';
 
 	return (
